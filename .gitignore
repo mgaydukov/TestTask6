@@ -1,0 +1,58 @@
+# Общие IntelliJ IDEA файлы
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/libraries/
+
+# Изменяемые настройки IDEA (например, состояние вкладок)
+.idea/vcs.xml
+.idea/assetWizardSettings.xml
+
+# Файлы сборки и кэши
+out/
+target/
+build/
+
+# Логи
+*.log
+
+# Настройки операционных систем
+.DS_Store
+Thumbs.db
+
+# Maven Wrapper файлы
+.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# IntelliJ Plugin для Maven
+.idea/maven.xml
+
+# Содержимое каталога настроек Maven
+.settings/
+
+# Кэшированные зависимости и артефакты
+**/dependency-reduced-pom.xml
+**/release.properties
+**/pom.xml.releaseBackup
+**/pom.xml.tag
+
+# Docker файлы, если не используются
+*.env
+docker-compose.override.yml
+
+# Исключение, если используется Lombok
+**/.lombok/config
+
+# Темпоральные файлы ОС
+*.swp
+*.swo
+
+# Скрытые каталоги конфигурации IDE
+.idea_modules/
+.idea_modules/**/
+
